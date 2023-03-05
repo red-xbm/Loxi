@@ -747,7 +747,7 @@ input:checked + .slider:before {
         width: 100%;
         display: flex;
         flex-direction: column;
-        padding: 90px 8%;
+        padding: 90px 5%;
     }
     .face-one-content .content1 {
         width: 100%;
