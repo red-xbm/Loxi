@@ -717,6 +717,14 @@ input:checked + .slider:before {
 .face-six-con2 .face-six-con3 .heart {
     width: 25px;
 }
+.end {
+    background-color: rgb(179, 29, 29);
+    color: white;
+    text-align: center;
+    font: 13px;
+    padding: 10px 0;
+
+}
 
 
 /* phone */
@@ -747,23 +755,36 @@ input:checked + .slider:before {
         width: 100%;
         display: flex;
         flex-direction: column;
-        padding: 90px 5%;
+        padding: 0 0 90px;
     }
     .face-one-content .content1 {
         width: 100%;
         margin-bottom: 35px;
-
+    }
+    .content1 .logo {
+        margin: 165px 0 0 10px;
+        padding: 0 5%;
     }
     .face-one-content .content2 {
         display: none;
     }
+    .content1 .s1 {
+        width: 100%;
+        font-size: 31px;
+        margin: 20px 0;
+        padding: 0 1%;
+        text-align: center;
+    }
+    .content1 .s2 {
+        width: 100%;
+        padding: 15px 6% 0;
+        font-size: 19px;
+    }
     .content1 .s3 {
         margin-right: 0;
     }
-    .content1 .s1 {
-        width: 100%;
-        font-size: 35px;
-        margin: 20px 0;
+    .content1 .s3 {
+        margin: 0 0 0 6%;
     }
     .content1 .s4, .content1 .s3 {
         padding: 10px;
@@ -785,6 +806,14 @@ input:checked + .slider:before {
     }
     .face-two .name {
         width: 100%;
+        text-align: center;
+        padding: 0 0 20px;
+    }
+    .face-two-content-1 .name-2 {
+        width: 100%;
+        margin-top: 0;
+        padding: 0 10px 30px;
+        text-align: center;
     }
     .face-two .face-two-content-2 {
         width: 100%;
@@ -926,15 +955,18 @@ input:checked + .slider:before {
         font-size: 35px;
         font-weight: bold;
         width: 100%;
+        text-align: center;
+    }
+    .face-four-content1 .name2 {
+        text-align: center;
     }
     .face-four .face-four-content1 .cont1{
         width: 100%;
-        padding-left: 20px;
     }
     .face-four-content1 .cont2 {
-        width: 75%;
+        width: 90%;
         padding: 30px 60px;
-        margin: 10px 12%;
+        margin: 0px 5%;
         box-shadow: 0 3px 10px hsl(182deg 64% 57% / 64%);
     }
     .face-four-content2 .cont3 {
@@ -943,9 +975,9 @@ input:checked + .slider:before {
         padding: 30px 60px;
     }
     .face-four-content2 .cont4 {
-        width: 75%;
+        width: 90%;
         padding: 30px 60px;
-        margin: 20px 12% 0;
+        margin: 20px 5% 0;
     }
 
     /* face five */
@@ -960,6 +992,11 @@ input:checked + .slider:before {
     .face-five .contentX1 .x1 .n1 {
         width: 100%;
         font-size: 35px;
+        text-align: center;
+    }
+    .face-five .contentX1 .x1 .n2 {
+        text-align: center;
+        width: 100%;
     }
     .face-five .contentX1 .x2 {
         width: 100%;
@@ -967,6 +1004,7 @@ input:checked + .slider:before {
         justify-content: space-around;
         margin: 20px 0;
         flex-wrap: wrap;
+        flex-direction: column-reverse;
 
     }
     .face-five .contentX1 .x2 .xx1, 
@@ -1061,6 +1099,14 @@ input:checked + .slider:before {
         letter-spacing: 10px;
         margin: -45px 0 19px 0;
         padding-left: 20px;
+    }
+    .end {
+        background-color: rgb(179, 29, 29);
+        color: white;
+        text-align: center;
+        font: 13px;
+        padding: 10px 0;
+    
     }
 }
 
@@ -1220,5 +1266,12 @@ input:checked + .slider:before {
         display: flex;
         flex-direction: column;
         padding-right: 10px;
+    }
+    .end {
+        background-color: rgb(179, 29, 29);
+        color: white;
+        text-align: center;
+        font: 13px;
+        padding: 10px 0;
     }
 }
