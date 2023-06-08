@@ -725,7 +725,11 @@ input:checked + .slider:before {
     padding: 10px 0;
 
 }
-
+.end a {
+    text-decoration: none;
+    border-bottom: blueviolet 1px solid;
+    color:#fdfdfd8c;
+}
 
 /* phone */
 @media screen and (max-width: 767px) {
